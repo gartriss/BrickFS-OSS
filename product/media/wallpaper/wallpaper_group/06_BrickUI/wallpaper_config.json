@@ -1,0 +1,26 @@
+{
+    "title": "BrickUI",
+    "titleResId": "wallpaper_group_brick_ui_title",
+	"subtitle": "Brick wallpapers, Yay!",
+    "cardType": 1,
+    "count": 6,
+    "slideCount": 6,
+    "randomOrder": false,
+    "wallpapers": [{
+        "thumbPath": "./BRICK1.jpg",
+        "originPath": "./BRICK1.jpg",
+        "type": "wallpaper"
+    }, {
+        "thumbPath": "./BRICK2.jpg",
+        "originPath": "./BRICK2.jpg",
+        "type": "wallpaper"
+    }, {
+        "thumbPath": "./BRICK3.jpg",
+        "originPath": "./BRICK3.jpg",
+        "type": "wallpaper"
+    }, {
+        "thumbPath": "./BRICK4.jpg",
+        "originPath": "./BRICK4.jpg",
+        "type": "wallpaper"
+    }]
+}

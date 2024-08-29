@@ -1,0 +1,27 @@
+1.Patch Services.jar, Framework.jar, MIUI Services.jar, MIUI Framework.jar on this website: https://jefino9488.github.io/FrameworkPatcher/
+
+services.jar and framework.jar are in system/system/framework
+miui-services.jar and miui-framework.jar are in system_ext/framework
+
+After patching, replace files
+
+2.Debloat ROM (Remove all trash apps by Xiaomi). Be careful, if you will delete something wrong, system can bootloop!
+
+3.Add this strings into product/etc/build.prop
+
+persist.sys.background_blur_supported=true
+persist.sys.background_blur_status_default=true
+persist.sys.background_blur_version=2
+ro.miui.product.home=com.miui.home
+
+4.Add this strings to system/build.prop
+
+ro.miui.ui.fonttype=mipro
+ro.miui.ui.font.theme_apply=true
+ro.miui.ui.font.animation=disable
+ro.miui.ui.font.version=2
+ro.miui.ui.font.mi_font_path=/system/fonts/MiSansVF.ttf
+
+__________________________________________________________
+
+Last update: 29.08.24
