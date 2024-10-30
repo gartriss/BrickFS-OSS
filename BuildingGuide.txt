@@ -9,12 +9,13 @@ After patching, replace files
 
 3.Add this strings into product/etc/build.prop
 
-persist.sys.background_blur_supported=true
-persist.sys.background_blur_status_default=true
-persist.sys.background_blur_version=2
+persist.sys.background_blur_supported=true      |
+persist.sys.background_blur_status_default=true | - Don't add this if your device is Low-End!
+persist.sys.background_blur_version=2           |
+
 ro.miui.product.home=com.miui.home
 
-4.Add this strings to system/build.prop
+4.Add these strings to system/build.prop
 
 ro.miui.ui.fonttype=mipro
 ro.miui.ui.font.theme_apply=true
@@ -24,4 +25,4 @@ ro.miui.ui.font.mi_font_path=/system/fonts/MiSansVF.ttf
 
 __________________________________________________________
 
-Last update: 29.08.24
+Last update: 30.10.24
