@@ -9,6 +9,7 @@ BrickUI source, this branch is only for MIUI 14.
 ```
 Kronos mods for launcher
 @Kakashi1v1 (telegram) for mods
-@ZGonzah (telegram) for help
+@ZGonzah, @fnayush, @Sjimmy765 (telegram) for help
 @PeaceHyperMods (telegram) for mods
+@OrcaCloud (telegram) for SystemUI Plugin
 ```
