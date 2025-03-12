@@ -1,4 +1,4 @@
-![alt text](https://i.imgur.com/du7AbiX.png)
+![alt text](https://github.com/gartriss/BrickFS-OSS/blob/MIUI-14/images/preview.png)
 
 # BrickFS-OSS 2.0 (BootLoop)
 
