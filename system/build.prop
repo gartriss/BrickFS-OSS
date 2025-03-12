@@ -1,0 +1,27 @@
+# Mi-Sans hype
+ro.miui.ui.fonttype=mipro
+ro.miui.ui.font.theme_apply=true
+ro.miui.ui.font.animation=disable
+ro.miui.ui.font.version=2
+ro.miui.ui.font.mi_font_path=/system/fonts/MiSansVF.ttf
+
+# Battery life and performance
+pm.sleep_mode=1
+ro.config.dha_cached_max=12
+pm.sleep_mode=1
+power.saving.mode=1
+ro.ril.disable.power.collapse=0
+ro.config.hw_power_saving=1
+
+# Spoof Bootloader
+ro.boot.verifiedbootstate=green
+vendor.boot.verifiedbootstate=green
+vendor.boot.vbmeta.device_state=locked
+ro.boot.veritymode=enforcing
+ro.boot.vbmeta.device_state=locked
+ro.boot.flash.locked=1
+
+# Google Fingerprint
+ro.build.fingerprint=google/akita_beta/akita:Baklava/BP22.250103.008/12932282:user/release-keys
+
+

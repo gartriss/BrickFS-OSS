@@ -1,0 +1,13 @@
+{
+  "basic": {
+    "cpu": "MediaTek Dimensity 700",
+    "battery": "5000mAh",
+    "camera": " 48MP+2MP+2MP",
+    "screen": "6.5″",
+    "resolution": "2400×1080"
+  },
+  "camera": {
+    "front_camera": " 8MP",
+    "rear_camera": " 48MP+2MP+2MP"
+  }
+}

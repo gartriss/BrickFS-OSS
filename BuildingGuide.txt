@@ -7,22 +7,13 @@ After patching, replace files
 
 2.Debloat ROM (Remove all trash apps by Xiaomi). Be careful, if you will delete something wrong, system can bootloop!
 
-3.Add this strings into product/etc/build.prop
+3.Add all props from product/etc/build.prop to product/etc/build.prop
 
-persist.sys.background_blur_supported=true      |
-persist.sys.background_blur_status_default=true | - Don't add this if your device is Low-End!
-persist.sys.background_blur_version=2           |
+4.Add all props from system/build.prop to system/build.prop
 
-ro.miui.product.home=com.miui.home
+5.Adapt product/etc/device_info.json to your specs. Only change specs!!! Don't change cpu to CPU or etc…
 
-4.Add these strings to system/build.prop
-
-ro.miui.ui.fonttype=mipro
-ro.miui.ui.font.theme_apply=true
-ro.miui.ui.font.animation=disable
-ro.miui.ui.font.version=2
-ro.miui.ui.font.mi_font_path=/system/fonts/MiSansVF.ttf
-
+6.Unpack Settings.zip in system_ext/priv-app/Settings and replace APK
 __________________________________________________________
 
-Last update: 30.10.24
+Last update: 12.03.25
