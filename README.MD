@@ -1,6 +1,6 @@
 ![alt text](https://github.com/gartriss/BrickFS-OSS/blob/MIUI-14/images/preview.png)
 
-# BrickFS-OSS 2.0 (BootLoop)
+# BrickUI Source (codename BootLoop)
 
 BrickUI source, this branch is only for MIUI 14.
 
